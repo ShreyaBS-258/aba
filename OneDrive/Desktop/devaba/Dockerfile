@@ -1,4 +1,4 @@
-FROM python:3.10 
-COPY hello.py /app/ 
+FROM python
+COPY . /app/ 
 WORKDIR /app 
 CMD ["python", "hello.py"] 
